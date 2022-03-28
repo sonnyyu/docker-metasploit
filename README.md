@@ -3,7 +3,7 @@
 git clone https://github.com/sonnyyu/docker-metasploit/
 cd docker-metasploit
 ```
-# create a directory metasploit & postgres
+# Create a directory metasploit & postgres
 ```bash
 mkdir $HOME/docker-metasploit/msf4
 mkdir $HOME/docker-metasploit/msf4/database
