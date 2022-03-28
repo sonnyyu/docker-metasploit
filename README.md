@@ -1,3 +1,9 @@
+#Build it:
+```bash
+git clone https://github.com/sonnyyu/docker-metasploit/
+cd docker-metasploit
+```
+
 ```bash
 mkdir $HOME/docker-metasploit/msf4
 mkdir $HOME/docker-metasploit/msf4/database
