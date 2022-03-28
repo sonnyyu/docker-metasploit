@@ -22,7 +22,7 @@ docker run --ip 172.28.0.2 --network msf --rm --name postgres \
 ```bash
 docker run --rm -it --network msf --name msf \
 --ip 172.28.0.3 -e DATABASE_URL='postgres://postgres:postgres@172.28.0.2:5432/msf' \
--v "${HOME}/docker-metasploit/msf4:/home/msf/.msf4" -p 8443-8500:8443-8500 \
+-v "${HOME}/docker-metasploit/msf4:/home/msf/.msf4"  \
 metasploitframework/metasploit-framework
 ```
 # Save database setting
