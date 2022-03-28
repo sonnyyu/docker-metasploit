@@ -1,0 +1,4 @@
+#!/bin/bash
+docker run --rm -it -u 0 --network msf --name msf \
+--ip 172.28.0.3 -v "${HOME}/docker-metasploit/msf4:/home/msf/.msf4" \
+-p 8443-8500:8443-8500 metasploitframework/metasploit-framework
